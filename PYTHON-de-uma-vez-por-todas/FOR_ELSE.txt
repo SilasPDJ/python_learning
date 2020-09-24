@@ -1,0 +1,5 @@
+for/while
+else
+
+O else executa se o break não aparecer...
+

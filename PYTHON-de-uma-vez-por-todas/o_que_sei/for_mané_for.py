@@ -1,0 +1,3 @@
+l2 = list(range(1, 10))
+# # muito legal, mané "for"...
+print(l2)

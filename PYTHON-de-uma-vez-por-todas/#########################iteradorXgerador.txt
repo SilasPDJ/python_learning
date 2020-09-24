@@ -1,0 +1,22 @@
+A python generator function lends us a sequence of values to python iterate on. The following is an example of generators in python.
+
+Um gerador no python deixa uma sequência de valores para serem iterados
+# yeild
+
+
+A Python iterator returns us an iterator object- one value at a time
+Um iterador python usa o next()
+
+In creating a python generator, we use a function. But in creating an iterator in python, we use the iter() and next() functions
+# gerador usa função, iterador usa iter(), next()
+
+
+see more in: https://data-flair.training/blogs/python-generator-vs-iterator/
+
+
+####################################################################################
+variavel = ((x, y) for x, y in zip('Alo', 'Hello'))
+# gerador acima, GENERATOR COMPREHENSION EXPRESSION, else -> yield em def p/ geradores
+
+todos os geradores são iteradores, mas nem todos iteradores são geradores
+####################################################################################
